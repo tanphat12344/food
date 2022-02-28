@@ -17,6 +17,9 @@
 </head> 
 <body>
     <div class="body">
+
+        <section id="overlay"></section>
+
         <div class="header">
             <div class="menu" > 
                 <div class="icon-menu">
@@ -30,7 +33,16 @@
                 </div>
             </div>
         </div>
-        <div class="content-food">
+
+        <div class="mainnavbar">
+            <ul class="navbar__links">
+                <li class="navbar__link"><a href="#">Close Menu</a></li>
+                <li class="navbar__link"><a href="#content-food">Foods</a></li>
+                <li class="navbar__link"><a href="#about">About</a></li>
+            </ul>
+        </div>
+
+        <div id="content-food" class="content-food">
             <div class="infofood">
                 <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" style="width:100%">
                 <h3>The Perfect Sandwich, A Real NYC Classic</h3>
@@ -84,7 +96,7 @@
         <div class="undercontent">
             <div class="number">
                 <a href="#" ><i class="fa-solid fa-angles-left"></i></a>
-                <a href="#">1</a>
+                <a href="#" class="numberB">1</a>
                 <a href="#">2</a>
                 <a href="#">3</a>
                 <a href="#">4</a>
@@ -92,7 +104,7 @@
             </div>
 
         </div>
-        <div class="about">
+        <div id="about" class="about">
             <h3>About Me, The Food Man</h3>
             <img src="https://www.w3schools.com/w3images/chef.jpg" alt="" style="width:100%">
             <h4>I am Who I Am!</h4>
